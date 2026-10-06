@@ -2976,12 +2976,6 @@
 		(uuid "f1f74b23-e56f-4386-b813-0ea2f249c6dc")
 	)
 	(junction
-		(at 62.23 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80f77541-94ba-409f-b025-fa09736a9fd2")
-	)
-	(junction
 		(at 233.68 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3437,7 +3431,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 34.29) (xy 62.23 34.29)
+			(xy 34.29 34.29) (xy 134.62 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3614,16 +3608,6 @@
 			(type default)
 		)
 		(uuid "b6002e16-2950-4dde-a691-ad45bc5dc4ff")
-	)
-	(wire
-		(pts
-			(xy 62.23 34.29) (xy 134.62 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcbd95ed-5d13-4cac-9870-713906c63ebf")
 	)
 	(wire
 		(pts
@@ -5362,99 +5346,6 @@
 			(project "RAK3172 V"
 				(path "/9f91746c-425f-4b2b-b446-9d0268e817b9"
 					(reference "SPI1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 62.23 30.48 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52446035-9e80-4221-a5a3-6be3911b6a06")
-		(property "Reference" "D1"
-			(at 64.77 27.6224 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED"
-			(at 64.77 30.1624 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 62.23 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 62.23 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "61f36339-6477-4ae0-bbde-bafa0baa9a26")
-		)
-		(pin "1"
-			(uuid "d30e8943-e159-4248-868e-fd0b3c14dd83")
-		)
-		(instances
-			(project "RAK3172 V"
-				(path "/9f91746c-425f-4b2b-b446-9d0268e817b9"
-					(reference "D1")
 					(unit 1)
 				)
 			)
